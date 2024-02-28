@@ -1,7 +1,6 @@
 name: Fetch API Data
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '* * * * *'  # runs every minute
 
